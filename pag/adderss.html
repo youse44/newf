@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Address</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .address {
+            margin-bottom: 20px;
+        }
+
+        .address h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+            font-size: 20px;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 5px;
+        }
+
+        .address p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hospital Address</h1>
+    </header>
+    <div class="container">
+        <div class="address">
+            <h2>Our Location</h2>
+            <p><strong>Boulaq Al-Dakrour</strong></p>
+            <p>10 Zenin Street, next to the wooden bridge, Al-Masry Tower, Cairo, Egypt</p>
+        </div>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.497488498098!2d31.20175121511502!3d30.032549681882906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458472e8d953749%3A0x3f907e40c484b234!2s10%20Zenin%20St%2C%20Boulaq%20Al%20Dakrour%2C%20Giza%20Governorate%2C%20Egypt!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+    <footer>
+        <p>Hospital Address &copy; 2024 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
